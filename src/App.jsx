@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.css'
 import { Routes,Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Collections from './pages/Collections'
@@ -13,7 +14,7 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
+    <div className='px-[16px] sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>} />
