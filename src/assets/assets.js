@@ -162,5 +162,64 @@ export const assets = {
 
 }
 
+export const products =[
+    {
+    _id: "aaaaa",
+    name: "Women Round Neck Cotton Top",
+    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with beautiful Flower Print",
+    price: "100",
+    image: [p_img1],
+    category: "Women",
+    subCategory: "Topwear",
+    sizes:["S", "M", "L"],
+    date: 1716634345448,
+    bestseller:"true"
+},
+
+{
+    _id: "aaaab",
+    name: "Men Rounded Neck Pure Cotton T-Shirt",
+    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with beautiful Flower Print",
+    price: "200",
+    image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
+    category: "Men",
+    subCategory: "Topwear",
+    sizes:["M", "L", "XL"],
+    date: 1716634345448,
+    bestseller:"true"
+},
+
+{
+    _id: "aaaaa",
+    name: "Women Round Neck Cotton Top",
+    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with beautiful Flower Print",
+    price: "100",
+    image: [p_img1],
+    category: "Women",
+    subCategory: "Topwear",
+    sizes:["S", "M", "L"],
+    date: 1716634345448,
+    bestseller:"true"
+},
+
+{
+    _id: "aaaaa",
+    name: "Women Round Neck Cotton Top",
+    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with beautiful Flower Print",
+    price: "100",
+    image: [p_img1],
+    category: "Women",
+    subCategory: "Topwear",
+    sizes:["S", "M", "L"],
+    date: 1716634345448,
+    bestseller:"true"
+},
+
+
+
+
+]
+
+
 
 
